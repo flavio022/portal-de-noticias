@@ -1,0 +1,65 @@
+<html>
+<head>
+	<style type="text/css">
+		*{
+			padding: 0px;
+			margin:0px;
+		}
+		#header{
+			margin:auto;
+			width: 500px;
+					}
+		ul,ol{
+			list-style: none;
+		}
+		.nav li a{
+			background-color: #000;
+			color: #fff;
+			text-decoration: none;
+			padding: 10px 15px;
+			display: block;
+		}
+		.nav li a:hover{
+			background-color: #434343;
+		}
+		.nav > li{
+			float: left;
+
+		}
+		.nav li ul {
+			display: none;
+			position: absolute;
+			min-width: 140px;
+		}
+		.nav li:hover > ul{
+			display: block;
+
+		}
+		.nav li ul li{
+			position: relative;
+		}
+		.nav li ul li ul{
+			right: -140px;
+			top:0px;
+		}
+
+	</style>
+</head>
+<body>
+<div id="header">
+	<ul>
+		<ul class="nav">
+		<li><a href="">Home</a></li>
+		<li><a href="">Servico</a>
+		<ul>
+		<li><a href="">Servico</a>
+		<li><a href="">Servico</a>
+		<li><a href="">Servico</a>
+
+		</ul>
+		<li><a href="">Categorias</a></li>
+		<li><a href="">Contato</a></li>
+	</ul>
+</div>
+</body>
+</html>

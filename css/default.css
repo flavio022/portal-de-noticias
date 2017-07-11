@@ -1,0 +1,390 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #ddd;
+}
+
+
+/* Tela de Login */
+
+main#login{
+	width: 400px;
+	height: 250px;
+	left: 50%;
+	top: 50%;
+	margin-left: -200px;
+	margin-top: -125px;
+	position: absolute;
+	background: #fff;
+	border-radius: 4px;
+	box-shadow: 0px 0px 7px 4px #808080;
+}
+
+main#login table{
+	width: 360px;
+	height: 240px;
+	font-family: Tahoma;
+	font-size: 14px;
+	margin-left: 18px;
+	margin-top: 5px;
+}
+
+main#login table tr td h1{
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+}
+
+#user-name, #user-pass{
+	width: 300px;
+	height: auto;
+	padding: 10px;
+	border: 1px solid #ddd;
+	float: right;
+}
+
+#user-login{
+	width: auto;
+	height: auto;
+	background-color: #121212;
+	color: #fff;
+	border-radius: 2px;
+	float: right;
+	padding: 7px 10px 7px 10px;
+	border: none;
+	cursor: pointer;
+}
+
+/* Configuração do Topo */
+
+header{
+	width: 100%;
+	height: 105px;
+	float: left;
+	position: relative;
+	display: table;
+}
+
+#topo{
+	width: 1020px;
+	height: 105px;
+	margin: 0 auto;
+}
+
+#logo{
+	float: left;
+	width: 228px;
+	height: 53px;
+	margin-top: 25px;
+}
+
+#right{
+	width: 560px;
+	height: 105px;
+	float: right;
+}
+
+#mensagem{
+	float: left;
+	width: 450px;
+	height: auto;
+	font-family: Tahoma;
+	font-size: 14px;
+	text-align: right;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 10px;
+	line-height: 20px;
+}
+
+#mensagem a{
+	color: #4e9cc9;
+	text-decoration: none;
+}
+
+#mensagem a:hover{
+	color: #19587c;
+	text-decoration: none;
+}
+
+#foto-perfil{
+	max-width: 85px;
+	max-height: 85px;
+	float: right;
+	margin-left: 10px;
+	margin-right: 3px;
+	margin-top: 7px;
+}
+
+#foto-perfil img{
+	max-width: 85px;
+	max-height: 85px;
+	min-width: 85px;
+	min-height: 85px;
+	border: 2px solid #fff;
+	box-shadow: 0px 0px 3px 2px #ddd;
+}
+
+/* Configuração do Menu */
+
+#menu{
+	width: 100%;
+	height: 55px;
+	float: left;
+	position: relative;
+	background-color: #ddd;
+}
+
+#menu nav{
+	width: 1020px;
+	height: 55px;
+	background-color: #121212;
+	border-radius: 4px 4px 0px 0px;
+	margin:  0 auto;
+}
+
+#menu nav ul{
+	width: 1020px;
+	height: 55px;
+	margin: 0 auto;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu nav ul li{
+	width: auto;
+	height: 55px;
+	float: left;
+	line-height: 55px;
+	display: inline;
+	font-family: Tahoma;
+	font-size: 16px;
+	color: #fff;
+	padding: 0px 19px 0px 18px;
+	border-right: 1px solid #000;
+}
+
+#menu nav ul li:last-child{
+	border: none;
+}
+
+#menu nav ul li:hover {
+	background-color: #000;
+	cursor: pointer;
+}
+
+#menu nav ul li:first-child:hover{
+	border-radius: 4px 0px 0px 4px;
+}
+
+#menu nav ul li:last-child:hover{
+	border-radius: 0px 4px 4px 0px;
+}
+
+/* Configuração do Conteúdo */
+
+main{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	float: left;
+	position: relative;
+}
+
+section#wrapper{
+	width: 1020px;
+	height: auto;
+	margin: 0 auto;
+}
+
+section#content{
+	width: 1020px;
+	height: auto;
+	float: left;
+	background-color: #fff;
+}
+
+section#contagem{
+	width: 500px;
+	height: 105px;
+	float: left;
+	background-color: #fff;
+	border-radius: 3px;
+	margin-top: 25px;
+	margin-left: 20px;
+	border: 1px solid #ccc;
+}
+
+section#contagem table{
+	width: 470px;
+	height: 70px;
+	margin-top: 12px;
+	margin-left: 14px;
+	font-family: Tahoma;
+	font-size: 14px;
+}
+
+section#contagem table tr td{
+	padding: 10px 0px 10px 0px;
+}
+
+.table-marc{
+	width: 150px;
+	color: #19587c;
+}
+
+.table-val{
+	text-align: right;
+}
+
+section#nota-rapida{
+	width: 467px;
+	height: 470px;
+	float: right;
+	margin-top: 25px;
+	margin-right: 15px;
+	background-color: #fff;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	border-top: none;
+	margin-bottom: 30px;
+}
+
+section#nota-rapida h1{
+	width: 452px;
+	padding: 12px 0px 12px 15px;
+	border-radius: 3px 3px 0px 0px;
+	background-color: #121212;
+	font-family: Tahoma;
+	font-size: 16px;
+	font-weight: normal;
+	color: #fff;
+}
+
+section#nota-rapida table{
+	width: 440px;
+	height: 405px;
+	margin-top: 10px;
+	margin-left: 14px;
+	font-family: "Trebuchet MS";
+	font-size: 16px;
+}
+
+section#nota-rapida table tr td input[type="text"]{
+	width: 435px;
+	height: auto;
+	padding: 10px;
+	box-shadow: inset 0px 0px 2px 0px #000f23;
+	border: 0px solid #ccc;
+	border-radius: 2px;
+	color: #838383;
+	font-size: 14px;
+}
+
+section#nota-rapida table tr td textarea{
+	max-width: 435px;
+	max-height: 170px;
+	min-width: 435px;
+	min-height: 170px;
+	padding: 10px;
+	box-shadow: inset 0px 0px 2px 0px #000f23;
+	border: 0px solid #ccc;
+	border-radius: 2px;
+	color: #838383;
+	font-size: 14px;
+}
+
+section#nota-rapida table tr td input[type="submit"]{
+	width: auto;
+	height: auto;
+	float: right;
+	padding: 10px 12px 10px 12px;
+	border: none;
+	border-radius: 2px;
+	color: #fff;
+	font-size: 14px;
+	background-color: #121212;
+	margin-top: 7px;
+}
+
+/* Últimas Notícias */
+
+section#links-ultimas-noticias{
+	width: 500px;
+	height: auto;
+	float: left;
+	margin-left: 21px;
+	margin-top: 17px;
+}
+
+section#links-ultimas-noticias h1{
+	width: 492px;
+	height: auto;
+	margin-left: -1px;
+	margin-bottom: 7px;
+	color: #fff;
+	font-family: Tahoma;
+	font-size: 18px;
+	color: #121212;
+	font-weight: normal;
+	float: left;
+}
+
+section#links-ultimas-noticias ul{
+	width: 502px;
+	height: auto;
+	float: left;
+	margin: 0;
+	margin-left: -1px;
+	list-style: none;
+	padding: 0;
+}
+
+section#links-ultimas-noticias ul li{
+	width: 480px;
+	height: auto;
+	float: left;
+	padding: 7px 0px 7px 0px;
+	color: #19587c;
+	font-family: Tahoma;
+	font-size: 14px;
+	text-align: justify;
+}
+
+section#links-ultimas-noticias ul li:hover{
+	background-color: #19587c;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	padding: 7px 10px 7px 10px;
+}
+
+/* Configuração Footer */
+
+footer{
+	width: 100%;
+	height: 55px;
+	float: left;
+	display: table;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+footer #footer{
+	width: 1020px;
+	height: 55px;
+	background-color: #121212;
+	border-radius: 0px 0px 4px 4px;
+	margin:  0 auto;
+	line-height: 55px;
+	text-align: center;
+	font-family: Tahoma;
+	font-size: 14px;
+	color: #fff;
+}
